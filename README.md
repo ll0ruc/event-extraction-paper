@@ -9,6 +9,8 @@ Papers from top conferences and journals for event extraction in recent years
 
 - [ACL](#ACL)
 - [EMNLP](#EMNLP)
+- [NAACL](#NAACL)
+- [COLING](#COLING)
 </p></blockquote></details>
 
 ## ACL
@@ -344,6 +346,8 @@ Papers from top conferences and journals for event extraction in recent years
   EMNLP 2018.
   [paper](https://www.aclweb.org/anthology/D18-1517.pdf)
   
-    > We propose a method to transfer the knowledge learned on WSD to ED by matching the neural representations learned for the two tasks.   
+  </i></summary><blockquote><p align="justify">
+  We propose a method to transfer the knowledge learned on WSD to ED by matching the neural representations learned for the two tasks.
+  </p></blockquote></details>
     
     
