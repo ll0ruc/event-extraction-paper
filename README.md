@@ -1,5 +1,7 @@
 # Papers for Event Extraction
-Papers from top conferences and journals for event extraction in recent years
+Papers from top conferences and journals for event extraction in recent years.
+
+In order to show more information for each paper, we take a sentence from the abstract which can express the main purpose in the paper.
 
 # Table of Contents
 
@@ -11,6 +13,7 @@ Papers from top conferences and journals for event extraction in recent years
 - [EMNLP](#EMNLP)
 - [NAACL](#NAACL)
 - [COLING](#COLING)
+- [AAAI](#AAAI)
 </p></blockquote></details>
 
 ## ACL
@@ -340,14 +343,270 @@ Papers from top conferences and journals for event extraction in recent years
   
     > We present a novel GRU-based model that combines syntactic information along with temporal structure through an attention mechanism. 
     
-    
+  
 5. **Similar but not the Same: Word Sense Disambiguation Improves Event Detection via Neural Representation Matching.**
   _Weiyi Lu, Thien Huu Nguyen._
   EMNLP 2018.
   [paper](https://www.aclweb.org/anthology/D18-1517.pdf)
   
-  </i></summary><blockquote><p align="justify">
-  We propose a method to transfer the knowledge learned on WSD to ED by matching the neural representations learned for the two tasks.
-  </p></blockquote></details>
+      > We propose a method to transfer the knowledge learned on WSD to ED by matching the neural representations learned for the two tasks. 
+
+
+### 2016 
+
+1. **Modeling Skip-Grams for Event Detection with Convolutional Neural Networks.**
+  _Thien Huu Nguyen, Ralph Grishman._
+  EMNLP 2016.
+  [paper](https://www.aclweb.org/anthology/D16-1085.pdf)
+  
+    > We propose to improve the current CNN models for ED by introducing the non-consecutive convolution. 
+
+
+2. **Event Detection and Co-reference with Minimal Supervision.**
+  _Haoruo Peng, Yangqiu Song, Dan Roth._
+  EMNLP 2016.
+  [paper](https://www.aclweb.org/anthology/D16-1038.pdf)
+  
+    > This paper proposes a novel event detection and co-reference approach with minimal supervision, addressing some of the key issues slowing down progress in research on events, including the difficulty to annotate events and their relations.
     
+    
+### 2015 
+
+1. **Joint Event Trigger Identification and Event Coreference Resolution with Structured Perceptron.**
+  _Jun Araki, Teruko Mitamura._
+  EMNLP 2015.
+  [paper](https://www.aclweb.org/anthology/D15-1247.pdf)
+  
+    > This paper proposes a document-level structured learning model that simultaneously identifies event triggers and resolves event coreference.
+
+
+2. **Event Detection and Factuality Assessment with Non-Expert Supervision.**
+  _Kenton Lee, Yoav Artzi, Yejin Choi, and Luke Zettlemoyer._
+  EMNLP 2015.
+  [paper](https://www.aclweb.org/anthology/D15-1189.pdf)
+  
+    > We studied event detection and scalar factuality prediction, demonstrating that non-expert annotator can, in aggregate, provide high-quality data and introducing simple models that perform well on each task. 
+
+
+
+## NAACL
+
+### 2019
+
+1. **Adversarial Training for Weakly Supervised Event Detection.**
+  _Xiaozhi Wang, Xu Han, Zhiyuan Liu, Maosong Sun, Peng Li._
+  NAACL 2019.
+  [paper](https://www.aclweb.org/anthology/N19-1105.pdf)
+  
+    > We build a large event-related candidate set with good coverage and then apply an adversarial training mechanism to iteratively identify those informative instances from the candidate set and filter out those noisy ones.
+
+
+2. **Event Detection without Triggers.**
+  _Shulin Liu, Yang Li, Xinpeng Zhou, Tao Yang, Feng Zhang._
+  NAACL 2019.
+  [paper](https://www.aclweb.org/anthology/N19-1080.pdf)
+  
+    > We propose a novel framework dubbed as Type-aware Bias Neural Network with Attention Mechanisms (TBNNAM), which encodes the representation of a sentence based on target event types.
+    
+
+3. **Multilingual Entity, Relation, Event and Human Value Extraction.**
+  _Manling Li, Ying Lin, Joseph Hoover, Spencer Whitehead, Clare R. Voss, Morteza Dehghani, Heng Ji._
+  NAACL 2019.
+  [paper](https://www.aclweb.org/anthology/N19-4019.pdf)
+  
+    > This paper demonstrates a state-of-the-art endto-end multilingual (English, Russian, and Ukrainian) knowledge extraction system that can perform entity discovery and linking, relation extraction, event extraction, and coreference.
+
+
+4. **SEDTWik: Segmentation-based Event Detection from Tweets using Wikipedia.**
+  _Keval M. Morabia, Neti Lalita Bhanu Murthy, Aruna Malapati, Surender S. Samant._
+  NAACL 2019.
+  [paper](https://www.aclweb.org/anthology/N19-3011.pdf)
+  
+    > This paper presents the problems associated with event detection from tweets and a tweet-segmentation based system for event detection called SEDTWik, an extension to a previous work, that is able to detect newsworthy events occurring at different locations of the world from a wide range of categories.
+
+
+5. **Biomedical Event Extraction Based on Knowledge-driven Tree-LSTM.**
+  _Diya Li, Lifu Huang, Heng Ji, Jiawei Han._
+  NAACL 2019.
+  [paper](https://www.aclweb.org/anthology/N19-1145.pdf)
+  
+    > We show the effectiveness of using a KB-driven tree-structured LSTM for event extraction in biomedical domain.
+    
+    
+### 2018
+
+1. **Semi-Supervised Event Extraction with Paraphrase Clusters.**
+  _James Ferguson, Colin Lockard, Daniel S. Weld, Hannaneh Hajishirzi._
+  NAACL 2018.
+  [paper](https://www.aclweb.org/anthology/N18-2058.pdf)
+  
+    > We present a method for self-training event extraction systems by bootstrapping additional training data.   
+
+
+2. **Neural Events Extraction from Movie Descriptions.**
+  _Alex Tozzo, Dejan Jovanovic, Mohamed R. Amer._
+  NAACL 2018.
+  [paper](https://www.aclweb.org/anthology/W18-1507.pdf)
+  
+    > We formulate our problem using a recurrent neural network, enhanced with structural features extracted from syntactic parser, and trained using curriculum learning by progressively increasing the difficulty of the sentences.
+    
+    
+### 2016
+
+1. **Joint Event Extraction via Recurrent Neural Networks.**
+  _Thien Huu Nguyen, Kyunghyun Cho, Ralph Grishman._
+  NAACL 2016.
+  [paper](https://www.aclweb.org/anthology/N16-1034.pdf)
+  
+    > We propose to do event extraction in a joint framework with bidirectional recurrent neural networks, thereby benefiting from the advantages of the two models as well as addressing issues inherent in the existing approaches.    
+
+
+2. **Joint Extraction of Events and Entities within a Document Context.**
+  _Bishan Yang, Tom Mitchell._
+  NAACL 2016.
+  [paper](https://www.aclweb.org/anthology/N16-1033.pdf)
+  
+    > We propose a novel approach that models the dependencies among variables of events, entities, and their relations, and performs joint inference of these variables across a document. 
+
+
+3. **Bidirectional RNN for Medical Event Detection in Electronic Health Records.**
+  _Abhyuday N Jagannatha, Hong Yu._
+  NAACL 2016.
+  [paper](https://www.aclweb.org/anthology/N16-1056.pdf)
+  
+    > We have shown that RNNs models like LSTM and GRU are valuable tools for extracting medical events and attributes from noisy natural language text of EHR notes. 
+
+
+### 2015
+
+1. **Diamonds in the Rough: Event Extraction from Imperfect Microblog Data.**
+  _Ander Intxaurrondo, Eneko Agirre, Oier Lopez de Lacalle, Mihai Surdeanu._
+  NAACL 2015.
+  [paper](https://www.aclweb.org/anthology/N15-1066.pdf)
+  
+    > We introduce a distantly supervised event extraction approach that extracts complex event templates from microblogs.
+    
+    
+
+## COLING
+
+### 2018
+
+1. **Open-Domain Event Detection using Distant Supervision.**
+  _Jun Araki, Teruko Mitamura._
+  COLING 2018.
+  [paper](https://www.aclweb.org/anthology/C18-1075.pdf)
+  
+    > This paper introduces open-domain event detection, a new event detection paradigm to address issues of prior work on restricted domains and event annotation.
+
+
+### 2016
+
+1. **Leveraging Multilingual Training for Limited Resource Event Extraction.**
+  _Andrew Hsi, Yiming Yang, Jaime Carbonell, Ruochen Xu._
+  COLING 2016.
+  [paper](https://www.aclweb.org/anthology/C16-1114.pdf)
+  
+    > We propose a new event extraction approach that trains on multiple languages using a combination of both language-dependent and language-independent features, with particular focus on the case where target domain training data is of very limited size.
+
+
+2. **Incremental Global Event Extraction.**
+  _Alex Judea, Michael Strube._
+  COLING 2016.
+  [paper](https://www.aclweb.org/anthology/C16-1215.pdf)
+  
+    > We present an incremental approach to make the global context of the entire document available to the intra-sentential, state-of-the-art event extractor.
+
+
+
+## AAAI
+
+### 2020
+
+1. **Image Enhanced Event Detection in News Articles.**
+  _Meihan Tong, Shuai Wang, Yixin Cao, Bin Xu, Juaizi Li, Lei Hou, Tat-Seng Chua._
+  AAAI 2020.
+  [paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-TongM.4888.pdf)
+  
+    > In this paper, we first contribute an image dataset supplement to ED benchmarks (i.e., ACE2005) for training and evaluation. We then propose a novel Dual Recurrent Multimodal Model, DRMM, to conduct deep interactions between images and sentences for modality features aggregation. 
+
+
+2. **A Human-AI Loop Approach for Joint Keyword Discovery and Expectation Estimation in Micropost Event Detection.**
+  _Akansha Bhardwaj, Jie Yang, Philippe Cudre-Mauroux._
+  AAAI 2020.
+  [paper](https://arxiv.org/pdf/1912.00667.pdf)
+  
+    > This paper introduces a Human-AI loop approach to jointly discover informative keywords for model training while estimating their expectation.
+    
+    
+### 2019    
+    
+1. **Exploiting the Ground-Truth: An Adversarial Imitation Based Knowledge Distillation Approach for Event Detection.**
+  _Jian Liu, Yubo Chen, Kang Liu._
+  AAAI 2019.
+  [paper](https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4649)
+  
+    > We propose an adversarial imitation based knowledge distillation approach, for the first time, to tackle the challenge of acquiring knowledge from rawsentences for event detection.   
+
+
+2. **One for All: Neural Joint Modeling of Entities and Events.**
+  _Trung Minh Nguyen, Thien Huu Nguyen._
+  AAAI 2019.
+  [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4661)
+  
+    > We propose a novel model to jointly perform predictions for entity mentions, event triggers and arguments based on the shared hidden representations from deep learning. 
+
+
+### 2018   
+    
+1. **Graph Convolutional Networks with Argument-Aware Pooling for Event Detection.**
+  _Thien Huu Nguyen, Ralph Grishman._
+  AAAI 2018.
+  [paper](https://ix.cs.uoregon.edu/~thien/pubs/graphConv.pdf)
+  
+    > We investigate a convolutional neural network based on dependency trees to perform event detection.
+    
+
+2. **Event Detection via Gated Multilingual Attention Mechanism.**
+  _Jian Liu, Yubo Chen, Kang Liu, Jun Zhao._
+  AAAI 2018.
+  [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16371/16017)
+  
+    > We propose a novel multilingual approach — dubbed as Gated MultiLingual Attention (GMLATT) framework — to address the two issues simultaneously. 
+    
+    
+3. **Jointly Extracting Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction.**
+  _Lei Sha, Feng Qian, Baobao Chang, Zhifang Sui._
+  AAAI 2018.
+  [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16222/16157)
+  
+    > We propose a novel dependency bridge recurrent neural network (dbRNN) for event extraction.     
+
+
+4. **Scale Up Event Extraction Learning via Automatic Training Data Generation.**
+  _Ying Zeng, Yansong Feng, Rong Ma, Zheng Wang, Rui Yan, Chongde Shi, Dongyan Zhao._
+  AAAI 2018.
+  [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16119/16173)
+  
+    > This paper has presented a novel, fast approach to automatically construct training data for event extraction with little human involvement, which in turn allows effective event extraction modeling.
+    
+
+### 2016   
+    
+1. **From Tweets to Wellness: Wellness Event Detection from Twitter Streams.**
+  _Mohammad Akbari, Xia Huc, Nie Liqiang, Tat-Seng Chua._
+  AAAI 2016.
+  [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/11931/11568)
+  
+    > We proposed a learning framework that utilizes content information of microblogging texts as well as the relation between event categories to extract PWE from users social posts.
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
     
