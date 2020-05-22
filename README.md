@@ -5,7 +5,6 @@ In order to show more information for each paper, we take a sentence from the ab
 
 # Table of Contents
 
-<details>
 
 <summary><b>Expand Table of Contents</b></summary><blockquote><p align="justify">
 
@@ -14,7 +13,7 @@ In order to show more information for each paper, we take a sentence from the ab
 - [NAACL](#NAACL)
 - [COLING](#COLING)
 - [AAAI](#AAAI)
-</p></blockquote></details>
+</p></blockquote>
 
 ## ACL
 
