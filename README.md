@@ -13,7 +13,7 @@ In order to show more information for each paper, we take a sentence from the ab
 - [NAACL](#NAACL)
 - [COLING](#COLING)
 - [AAAI](#AAAI)
-- [Other Conferences](#Other Conferences)
+- [Other_Conferences](#Other_Conferences)
 - [Journals](#Journals)
 </p></blockquote>
 
@@ -603,7 +603,7 @@ In order to show more information for each paper, we take a sentence from the ab
     
     
     
-## Other Conferences
+## Other_Conferences
 
 ### CoNLL 2019
 
@@ -660,7 +660,7 @@ In order to show more information for each paper, we take a sentence from the ab
     > We introduce a new paradigm for event extraction by formulating it as a question answering (QA) task, which extracts the event arguments in an end-to-end manner.
 
 
-### arxiv 2019 [cs.CL]
+### arxiv 2019
 
 1. **Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection.**
   _Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen._
