@@ -13,6 +13,8 @@ In order to show more information for each paper, we take a sentence from the ab
 - [NAACL](#NAACL)
 - [COLING](#COLING)
 - [AAAI](#AAAI)
+- [Other Conferences](#Other Conferences)
+- [Journals](#Journals)
 </p></blockquote>
 
 ## ACL
@@ -601,11 +603,100 @@ In order to show more information for each paper, we take a sentence from the ab
     
     
     
-    
-    
-    
-    
-    
-   
+## Other Conferences
 
+### CoNLL 2019
+
+1. **Exploiting the Entity Type Sequence to Benefit Event Detection.**
+  _Yuze Ji, Youfang Lin, Jianwei Gao, Huaiyu Wan._
+  CoNLL 2019.
+  [paper](https://www.aclweb.org/anthology/K19-1057.pdf)
+  
+    > We propose a novel ED approach which learns sequential features from word sequences and entity type sequences separately, and combines these two types of sequential features with the help of a trigger-entity interaction learning module.     
     
+
+2. **Contextualized Cross-Lingual Event Trigger Extraction with Minimal Resources.**
+  _Meryem M’hamdi , Marjorie Freedman, Jonathan May._
+  CoNLL 2019.
+  [paper](https://www.aclweb.org/anthology/K19-1061.pdf)
+  
+    > We treat event trigger extraction as a sequence tagging problem and propose a cross-lingual framework for training it without any hand-crafted features.
+    
+    
+    
+## Journals
+
+### arxiv 2020 
+
+1. **Event Detection with Relation-Aware Graph Convolutional Networks.**
+  _Shiyao Cui, Bowen Yu, Tingwen Liu, Zhenyu Zhang, Xuebin Wang, Jinqiao Shi._
+  arxiv 2020 [cs.CL].
+  [paper](https://arxiv.org/pdf/2002.10757.pdf)
+  
+    >  We investigate a novel architecture named Relation-Aware GCN (RA-GCN), which efficiently exploits syntactic relation labels and models the relation between words specifically.     
+
+
+2. **Joint Event Extraction along Shortest Dependency Paths using Graph Convolutional Networks.**
+  _Ali Balali, Masoud Asadpour, Ricardo Campos, Adam Jatowt._
+  arxiv 2020 [cs.LG].
+  [paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.08615.pdf)
+  
+    >  We propose a novel joint event extraction framework that aims to extract multiple event triggers and arguments simultaneously by introducing shortest dependency path (SDP) in the dependency graph. 
+    
+    
+3. **MAVEN: A Massive General Domain Event Detection Dataset.**
+  _Xiaozhi Wang, Ziqi Wang, Xu Han, Wangyi Jiang, Rong Han, Zhiyuan Liu, Juanzi Li, Peng Li, Yankai Lin, Jie Zhou._
+  arxiv 2020 [cs.CL].
+  [paper](https://arxiv.org/pdf/2004.13590.pdf)
+  
+    > We present a MAssive eVENt detection dataset (MAVEN), which contains 4,480 Wikipediadocuments, 117,200 event mention instances, and 207 event types.
+    
+
+4. **Event Extraction by Answering (Almost) Natural Questions.**
+  _Xinya Du, Claire Cardie._
+  arxiv 2020 [cs.CL].
+  [paper](https://arxiv.org/pdf/2004.13625.pdf)
+  
+    > We introduce a new paradigm for event extraction by formulating it as a question answering (QA) task, which extracts the event arguments in an end-to-end manner.
+
+
+### arxiv 2019 [cs.CL]
+
+1. **Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection.**
+  _Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen._
+  arxiv 2019 [cs.CL].
+  [paper](https://arxiv.org/pdf/1910.11621.pdf)
+  
+    >  We propose a Dynamic-Memory-Based Prototypical Network (DMB-PN), which exploits Dynamic Memory Network (DMN) to not only learn better prototypes for event types, but also produce more robust sentence encodings for event mentions.
+    
+    
+2. **Extending Event Detection to New Types with Learning from Keywords.**
+  _Viet Dac Lai, Thien Huu Nguyen._
+  arxiv 2019 [cs.LG].
+  [paper](https://arxiv.org/pdf/1910.11368.pdf)
+  
+    >  We study a novel formulation of event detection that describes types via several keywords to match the contexts in documents. This facilitates the operation of the models to new types. We introduce a novel feature-based attention mechanism for convolutional neural networks for event detection in the new formulation.   
+    
+
+3. **Event Detection in Twitter: A Keyword Volume Approach.**
+  _Ahmad Hany Hossny, Lewis Mitchell._
+  arxiv 2019 [cs.SI].
+  [paper](https://arxiv.org/pdf/1901.00570.pdf)
+  
+    >  We propose an efficient method to select the keywords frequently used in Twitter that are mostly associated with events of interest such as protests. 
+    
+
+4. **Financial Event Extraction Using Wikipedia-Based Weak Supervision.**
+  _Liat Ein-Dor, Ariel Gera, Orith Toledo-Ronen, Alon Halfon, Benjamin Sznajder, Lena Dankin, Yonatan Bilu, Yoav Katz, Noam Slonim._
+  arxiv 2019 [cs.CL].
+  [paper](https://arxiv.org/pdf/1911.10783.pdf)
+  
+    >  This work is in line with this latter approach, leveraging relevant Wikipedia sections to extract weak labels for sentences describing economic events.
+    
+
+5. **CONTEXT AWARENESS AND EMBEDDING FOR BIOMEDICAL EVENT EXTRACTION.**
+  _Shankai Yan, Ka-Chun Wong._
+  arxiv 2019 [cs.CL].
+  [paper](https://arxiv.org/pdf/1905.00982.pdf)
+  
+    >   We proposed a bottom-up event detection framework using deep learning techniques. We built an LSTM-based model VecEntNet to construct argument embeddings for each recognized entity.
