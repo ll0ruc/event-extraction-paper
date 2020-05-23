@@ -685,16 +685,8 @@ In order to show more information for each paper, we take a sentence from the ab
   
     >  We propose an efficient method to select the keywords frequently used in Twitter that are mostly associated with events of interest such as protests. 
     
-
-4. **Financial Event Extraction Using Wikipedia-Based Weak Supervision.**
-  _Liat Ein-Dor, Ariel Gera, Orith Toledo-Ronen, Alon Halfon, Benjamin Sznajder, Lena Dankin, Yonatan Bilu, Yoav Katz, Noam Slonim._
-  arxiv 2019 [cs.CL].
-  [paper](https://arxiv.org/pdf/1911.10783.pdf)
-  
-    >  This work is in line with this latter approach, leveraging relevant Wikipedia sections to extract weak labels for sentences describing economic events.
     
-
-5. **CONTEXT AWARENESS AND EMBEDDING FOR BIOMEDICAL EVENT EXTRACTION.**
+4. **CONTEXT AWARENESS AND EMBEDDING FOR BIOMEDICAL EVENT EXTRACTION.**
   _Shankai Yan, Ka-Chun Wong._
   arxiv 2019 [cs.CL].
   [paper](https://arxiv.org/pdf/1905.00982.pdf)
