@@ -605,6 +605,17 @@ In order to show more information for each paper, we take a sentence from the ab
     
 ## Other_Conferences
 
+
+### IJCAI 2019
+
+1. **Extracting Entities and Events as a Single Task Using a Transition-Based Neural Model.**
+  _Junchi Zhang, Yanxia Qin, Yue Zhang, Mengchi Liu, Donghong Ji._
+  IJCAI 2019.
+  [paper](https://www.ijcai.org/Proceedings/2019/0753.pdf)
+  
+    > We build a first model to this end using a neural transition-based framework, incrementally predicting complex joint structures in a state-transition process.
+    
+    
 ### CoNLL 2019
 
 1. **Exploiting the Entity Type Sequence to Benefit Event Detection.**
