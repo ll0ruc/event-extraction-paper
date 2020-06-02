@@ -13,6 +13,7 @@ In order to show more information for each paper, we take a sentence from the ab
 - [NAACL](#NAACL)
 - [COLING](#COLING)
 - [AAAI](#AAAI)
+- [LREC](#LREC)
 - [Other_Conferences](#Other_Conferences)
 - [Journals](#Journals)
 </p></blockquote>
@@ -602,7 +603,60 @@ In order to show more information for each paper, we take a sentence from the ab
     > We proposed a learning framework that utilizes content information of microblogging texts as well as the relation between event categories to extract PWE from users social posts.
     
     
+
+## LREC
+
+### 2020
+
+1. **A French Corpus for Event Detection on Twitter.**
+  _Beatrice Mazoyer, Julia Cage, Nicolas Herve, Celine Hudelot._
+  LREC 2020.
+  [paper](https://www.aclweb.org/anthology/2020.lrec-1.763.pdf)
+  
+    > We present Event2018, a corpus annotated for event detection tasks, consisting of 38 million tweets in French (retweets excluded) including more than 130,000 tweets manually annotated by three annotators as related or unrelated to a given event.
+
+
+2. **A Dataset for Multilingual Epidemiological Event Extraction.**
+  _Stephen Mutuvi, Antoine Doucet, Gael Lejeune, Moses Odeo._
+  LREC 2020.
+  [paper](https://www.aclweb.org/anthology/2020.lrec-1.509.pdf)
+  
+    > This paper proposes a corpus for the development and evaluation of tools and techniques for identifying emerging infectious disease threats in online news text. The corpus can not only be used for information extraction, but also for other natural language processing (NLP) tasks such as text classification.
+
+
+3. **Event Extraction from Unstructured Amharic Text.**
+  _Ephrem Tadesse, Rosa Tsegaye Aga, Kuulaa Qaqqabaa._
+  LREC 2020.
+  [paper](https://www.aclweb.org/anthology/2020.lrec-1.258.pdf)
+  
+    > In this study, we present a system that extracts an event from unstructured Amharic text. The system has designed by the integration of supervised machine learning and rule-based approaches. 
     
+
+4. **A Platform for Event Extraction in Hindi.**
+  _Sovan Kumar Sahoo, Saumajit Saha, Asif Ekbal, Pushpak Bhattacharyya._
+  LREC 2020.
+  [paper](https://www.aclweb.org/anthology/2020.lrec-1.273.pdf)
+  
+    > In this paper, we present an Event Extraction framework for Hindi language by creating an annotated resource for benchmarking, and then developing deep learning based models to set as the baselines.
+    
+
+5. **Cross-Domain Evaluation of Edge Detection for Biomedical Event Extraction.**
+  _Alan Ramponi, Barbara Plank, Rosario Lombardo._
+  LREC 2020.
+  [paper](https://www.aclweb.org/anthology/2020.lrec-1.244.pdf)
+  
+    > We present the first cross-domain study of edge detection for biomedical event extraction. We analyze differences between five existing gold standard corpora, create a standardized benchmark corpus, and provide a strong baseline model for edge detection.
+
+
+6. **Cross-lingual Structure Transfer for Zero-resource Event Extraction.**
+  _Di Lu1, Ananya Subburathinam, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss._
+  LREC 2020.
+  [paper](https://www.aclweb.org/anthology/2020.lrec-1.243.pdf)
+  
+    > In this paper, we propose a novel cross-lingual structure transfer framework for zero-resource event extraction. Experiments on three languages show promising results without using any annotation.
+    
+   
+   
 ## Other_Conferences
 
 
