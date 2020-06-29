@@ -20,6 +20,72 @@ In order to show more information for each paper, we take a sentence from the ab
 
 ## ACL
 
+### 2020
+
+1. **Improving Event Detection via Open-domain Trigger Knowledge.**
+  _Meihan Tong, Bin Xu, Shuai Wang, Yixin Cao, Lei Hou, Juanzi Li, Jun Xie._
+  ACL 2020.
+  [paper](https://www.aclweb.org/anthology/2020.acl-main.522.pdf)
+  
+    > We propose a novel Enrichment Knowledge Distillation (EKD) model to leverage external open-domain trigger knowledge to reduce the in-built biases to frequent trigger words in annotations.
+  
+  
+2. **A Two-Step Approach for Implicit Event Argument Detection.**
+  _Zhisong Zhang, Xiang Kong, Zhengzhong Liu, Xuezhe Ma, Eduard Hovy._
+  ACL 2020.
+  [paper](https://www.aclweb.org/anthology/2020.acl-main.667.pdf)
+  
+    > We adopt a two-step approach, decomposing the problem into two sub-problems: argument head-word detection and head-to-span expansion. Evaluated on the recent RAMS dataset, our model achieves overall better performance than a strong sequence labeling baseline.
+
+
+3. **Extensively Matching for Few-shot Learning Event Detection.**
+  _Viet Dac Lai, Franck Dernoncourt, Thien Huu Nguyen._
+  ACL 2020.
+  [paper](https://www.aclweb.org/anthology/2020.nuse-1.5.pdf)
+  
+    > We formulate event detection as a few-shot learning problem to enable to extend event detection to new event types. We propose two novel loss factors that matching examples in the support set to provide more training signals to the model. Moreover, these training signals can be applied in many metric-based few-shot learning models. 
+
+
+4. **Document-Level Event Role Filler Extraction using Multi-Granularity Contextualized Encoding.**
+  _Xinya Du, Claire Cardie._
+  ACL 2020.
+  [paper](https://www.aclweb.org/anthology/2020.acl-main.714.pdf)
+  
+    > We first investigate how end-toend neural sequence models (with pre-trained language model representations) perform on document-level role filler extraction, as well as how the length of context captured affects the models’ performance. To dynamically aggregate information captured by neural representations learned at different levels of granularity (e.g., the sentence- and paragraph-level), we propose a novel multi-granularity reader.
+
+
+5. **Global Locality in Biomedical Relation and Event Extraction.**
+  _Elaheh ShafieiBavani, Antonio Jimeno Yepes, Xu Zhong, David Martinez Iraola._
+  ACL 2020.
+  [paper](https://www.aclweb.org/anthology/2020.bionlp-1.21.pdf)
+  
+    > We propose an approach to both relation and event extraction, for simultaneously predicting relationships between all mention pairs in a text. We also perform an empirical study to discuss different network setups for this purpose.
+
+
+6. **Towards Open Domain Event Trigger Identification using Adversarial Domain Adaptation.**
+  _Aakanksha Naik, Carolyn Rose._
+  ACL 2020.
+  [paper](https://www.aclweb.org/anthology/2020.acl-main.681.pdf)
+  
+    > We tackle the task of building supervised event trigger identification models which can generalize better across domains. Our work leverages the adversarial domain adaptation (ADA) framework to introduce domain-invariance.
+    
+
+7. **Cross-media Structured Common Space for Multimedia Event Extraction.**
+  _Manling Li, Alireza Zareian, Qi Zeng, Spencer Whitehead, Di Lu, Heng Ji, Shih-Fu Chang._
+  ACL 2020.
+  [paper](https://www.aclweb.org/anthology/2020.acl-main.230.pdf)
+  
+    > We introduce a new task, MultiMedia Event Extraction (M2E2), which aims to extract events and their arguments from multimedia documents.
+
+
+8. **Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder.**
+  _Zheng Tang, Gustave Hahn-Powell, Mihai Surdeanu._
+  ACL 2020.
+  [paper](https://www.aclweb.org/anthology/2020.acl-srw.23.pdf)
+  
+    > We propose an interpretable approach for event extraction that mitigates the tension between generalization and interpretability by jointly training for the two goals. Our approach uses an encoder-decoder architecture, which jointly trains a classifier for event extraction, and a rule decoder that generates syntactico-semantic rules that explain the decisions of the event classifier.
+   
+   
 ### 2019
 
 1. **Exploring Pre-trained Language Models for Event Extraction and Generation.**
