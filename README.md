@@ -757,7 +757,35 @@ In order to show more information for each paper, we take a sentence from the ab
     
 ## Journals
 
-### arxiv 2020 
+## Neuro Computing
+
+### 2020
+
+1. **A neural model for joint event detection and prediction.**
+  _Linmei Hu, Shuqi Yu, Bin Wu, Chao Shao, Xiaoli Li._
+  Neuro Computing 2020.
+  [paper](https://sci-hub.tw/https://doi.org/10.1016/j.neucom.2020.05.023)
+  
+    > We propose a novel neural model for joint event detection and prediction, which classifies the events to predefined types as well as predicts the next probable event by generating a sequence of words describing it. In addition, we propose a hierarchical attention mechanism to enable the model to capture important information at both word level and event level for next event prediction. 
+
+2. **A Hybrid Fine-grained Neural Network for Biomedical Event Trigger Identification.**
+  _Yufeng Diao, Hongfei Lin, Liang Yang, Xiaochao Fan, Di Wu, Zhihao Yang, Jian Wang, Kan Xu._
+  Neuro Computing 2020.
+  [paper](https://sci-hub.tw/https://doi.org/10.1016/j.neucom.2019.09.042)
+  
+    > We propose a hybrid structure FBSN which consists of Fine-grained Bidirectional Long Short Term Memory (FBi-LSTM) and Support Vector Machine (SVM) to deal with the event trigger identification. 
+
+3. **Rumor events detection enhanced by encoding sentimental information into time series division and word representations.**
+  _Zhihong Wang, Yi Guo._
+  Neuro Computing 2020.
+  [paper](https://sci-hub.tw/https://doi.org/10.1016/j.neucom.2020.01.095)
+  
+    > We construct a Sentiment Dictionary (SD) including a Sentiment Word Dictionary (SWD) and a Sentiment Emoticon Dictionary (SED) to capture the fine-grained human emotional reactions to different events. 
+    
+
+## arxiv 
+
+### 2020 
 
 1. **Event Detection with Relation-Aware Graph Convolutional Networks.**
   _Shiyao Cui, Bowen Yu, Tingwen Liu, Zhenyu Zhang, Xuebin Wang, Jinqiao Shi._
@@ -789,9 +817,41 @@ In order to show more information for each paper, we take a sentence from the ab
   [paper](https://arxiv.org/pdf/2004.13625.pdf)
   
     > We introduce a new paradigm for event extraction by formulating it as a question answering (QA) task, which extracts the event arguments in an end-to-end manner.
+    
+
+5. **Improving Event Detection using Contextual Word and Sentence Embeddings.**
+  _Mariano Maisonnave, Fernando Delbianco, Fernando Tohm´e, Ana Maguitman, Evangelos Milios._
+  arxiv 2020 [cs.CL].
+  [paper](https://arxiv.org/pdf/2007.01379.pdf)
+  
+    > The main contribution of this paper is the design, implementation and evaluation of a recurrent neural network model for ED that combines several features.
 
 
-### arxiv 2019
+6. **Extracting COVID-19 Events from Twitter.**
+  _Shi Zong, Ashutosh Baheti, Wei Xu, Alan Ritter._
+  arxiv 2020 [cs.CL].
+  [paper](https://arxiv.org/pdf/2006.02567.pdf)
+  
+    > We present an annotated corpus of 7,500 tweets for COVID-19 events, including positive/negative tests and denied access to testing.
+
+
+7. **Event Extraction Based on Deep Learning in Food Hazard Arabic Texts.**
+  _Fouzi Harrag, Selmene Gueliani._
+  arxiv 2020 [cs.CL].
+  [paper](https://arxiv.org/pdf/2006.02567.pdf)
+  
+    > We proposed here a model based on deep recurrent networks to extract the events from social media feeds.
+    
+    
+8. **Document-level Event-based Extraction Using Generative Template-filling Transformers.**
+  _Xinya Du, Alexander Rush, Claire Cardie._
+  arxiv 2020 [cs.CL].
+  [paper](https://arxiv.org/pdf/2006.02567.pdf)
+  
+    > We argue that sentence-level approaches are ill-suited to the task and introduce a generative transformer-based encoder-decoder framework that is designed to model context at the document level.    
+    
+    
+### 2019
 
 1. **Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection.**
   _Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen._
