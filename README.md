@@ -297,6 +297,128 @@ In order to show more information for each paper, we take a sentence from the ab
 
 ## EMNLP
 
+### 2020
+
+1. **Event Extraction by Answering (Almost) Natural Questions.**
+  _Xinya Du, Claire Cardie._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.emnlp-main.49.pdf)
+  
+    > We introduce a new paradigm for event extraction by formulating it as a question answering (QA) task that extracts the event arguments in an end-to-end manner.
+
+2. **Event Extraction as Machine Reading Comprehension.**
+  _Jian Liu, Yubo Chen, Kang Liu, Wei Bi, Xiaojiang Liu._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.emnlp-main.128.pdf)
+  
+    > We propose a new learning paradigm of EE, by explicitly casting it as a machine reading comprehension problem (MRC). Our approach includes an unsupervised question generation process, which can transfer event schema into a set of natural questions, followed by a BERTbased question-answering process to retrieve answers as EE results.
+    
+
+3. **MAVEN: A Massive General Domain Event Detection Dataset.**
+  _Xiaozhi Wang, Ziqi Wang, Xu Han, Wangyi Jiang, Rong Han, Zhiyuan Liu, Juanzi Li, Peng Li, Yankai Lin, Jie Zhou._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.emnlp-main.129.pdf)
+  
+    > We present a MAssive eVENt detection dataset (MAVEN), which contains 4, 480 Wikipedia documents, 118, 732 event mention instances, and 168 event types. MAVEN alleviates the data scarcity problem and covers much more general event types. We reproduce the recent state-of-the-art ED models and conduct a thorough evaluation on MAVEN. 
+
+
+4. **Event Detection: Gate Diversity and Syntactic Importance Scores for Graph Convolution Neural Networks.**
+  _Viet Dac Lai, Tuan Ngo Nguyen, Thien Huu Nguyen._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.emnlp-main.435.pdf)
+  
+    > We propose a novel gating mechanism to filter noisy information in the hidden vectors of the GCN models for ED based on the information from the trigger candidate. We also introduce novel mechanisms to achieve the contextual diversity for the gates and the importance score consistency for the graphs and models in ED.
+
+
+5. **Incremental Event Detection via Knowledge Consolidation Networks.**
+  _Pengfei Cao, Yubo Chen, Jun Zhao, Taifeng Wang._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.emnlp-main.52.pdf)
+  
+    > Existing incremental learning methods cannot handle semantic ambiguity and training data imbalance problems between old and new classes in the task of incremental event detection. In this paper, we propose a Knowledge Consolidation Network (KCN) to address the above issues.
+
+
+6. **Biomedical Event Extraction as Sequence Labeling.**
+  _Alan Ramponi, Rob van der Goot, Rosario Lombardo, Barbara Plank._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.emnlp-main.431.pdf)
+  
+    > We introduce Biomedical Event Extraction as Sequence Labeling (BEESL), a joint endto-end neural information extraction model. BEESL recasts the task as sequence labeling, taking advantage of a multi-label aware encoding strategy and jointly modeling the intermediate tasks via multi-task learning.
+    
+
+7. **Introducing a New Dataset for Event Detection in Cybersecurity Texts.**
+  _Hieu Man Duc Trong, Duc Trong Le, Amir Pouran Ben Veyseh, Thuat Nguyen, and Thien Huu Nguyen._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.emnlp-main.433.pdf)
+  
+    > We present a new dataset CySecED for event detection in the cybersecurity domain. Our dataset is manually annotated for 30 event types and provides sufficient data to develop deep learning models for this task.
+    
+    
+8. **Semi-supervised New Event Type Induction and Event Detection.**
+  _Lifu Huang, Heng Ji._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.emnlp-main.53.pdf)
+  
+    > We have designed a semi-supervised vector quantized variational autoencoder approach which automatically learns a discrete representations for each seen and unseen type and predict a type for each candidate trigger.
+ 
+
+9. **Biomedical Event Extraction as Multi-turn Question Answering.**
+  _Xing David Wang, Leon Weber, Ulf Leser._
+  EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.louhi-1.10.pdf)
+  
+    > We present an alternative approach where the detection of relationships between entities is described uniformly as questions, which are iteratively answered by a question answering (QA) system based on the domain-specific language model SciBERT.
+
+    
+    
+10. **Event Extraction as Multi-turn Question Answering.**
+  _Fayuan Li, Weihua Peng, Yuguang Chen, Quan Wang, Lu Pan, Yajuan Lyu, Yong Zhu._
+  Findings-EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.73.pdf)
+  
+    > Our approach, MQAEE, casts the extraction task into a series of reading comprehension problems, by which it extracts triggers and arguments successively from a given sentence. A history answer embedding strategy is further adopted to model question answering history in the multi-turn process.   
+    
+    
+11. **Edge-Enhanced Graph Convolution Networks for Event Detection with Syntactic Relation.**
+  _Shiyao Cui, Bowen Yu, Tingwen Liu, Zhenyu Zhang, Xuebin Wang, Jinqiao Shi._
+  Findings-EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.211.pdf)
+  
+    > We propose a novel architecture named Edge-Enhanced Graph Convolution Networks (EE-GCN), which simultaneously exploits syntactic structure and typed dependency label information to perform ED.
+    
+    
+12. **Graph Transformer Networks with Syntactic and Semantic Structures for Event Argument Extraction.**
+  _Amir Pouran Ben Veyseh, Tuan Ngo Nguyen, Thien Huu Nguyen._
+  Findings-EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.326.pdf)
+  
+    > We propose a novel model for EAE that exploits both syntactic and semantic structures of the sentences with the Graph Transformer Networks (GTNs) to learn more effective sentence structures for EAE. In addition, we introduce a novel inductive bias based on information bottleneck to improve generalization of the EAE models. 
+    
+    
+13. **Biomedical Event Extraction with Hierarchical Knowledge Graphs.**
+  _Kung-Hsiang Huang, Mu Yang, Nanyun Peng._
+  Findings-EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.114.pdf)
+  
+    > We propose to incorporate domain knowledge from Unified Medical Language System (UMLS) to a pre-trained language model via a hierarchical graph representation encoded by a proposed Graph Edgeconditioned Attention Networks (GEANet).
+    
+    
+14. **How Does Context Matter? On the Robustness of Event Detection with Context-Selective Mask Generalization.**
+  _Jian Liu, Yubo Chen, Kang Liu, Yantao Jia, Zhicheng Sheng._
+  Findings-EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.229.pdf)
+  
+    > This paper focuses on the robustness of ED. We highlight three stark cases showing the brittleness of existing ED models. Then we propose a new approach called context-selective masking generalization shedding lights on robustifying an ED model.
+    
+    
+15. **Resource-Enhanced Neural Model for Event Argument Extraction.**
+  _Jie Ma, Shuai Wang∗._
+  Findings-EMNLP 2020.
+  [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.318.pdf)
+  
+    > We present a new model which provides the best results in the EAE task. The model can generate trigger-aware argument representations, incorporate syntactic information (via dependency parses), and handle the role overlapping problem with rolespecific argument decoder.  
+   
+
 ### 2019
 
 1. **HMEAE: Hierarchical Modular Event Argument Extraction.**
@@ -787,39 +909,16 @@ In order to show more information for each paper, we take a sentence from the ab
 
 ### 2020 
 
-1. **Event Detection with Relation-Aware Graph Convolutional Networks.**
-  _Shiyao Cui, Bowen Yu, Tingwen Liu, Zhenyu Zhang, Xuebin Wang, Jinqiao Shi._
-  arxiv 2020 [cs.CL].
-  [paper](https://arxiv.org/pdf/2002.10757.pdf)
-  
-    >  We investigate a novel architecture named Relation-Aware GCN (RA-GCN), which efficiently exploits syntactic relation labels and models the relation between words specifically.     
-
-
-2. **Joint Event Extraction along Shortest Dependency Paths using Graph Convolutional Networks.**
+   
+1. **Joint Event Extraction along Shortest Dependency Paths using Graph Convolutional Networks.**
   _Ali Balali, Masoud Asadpour, Ricardo Campos, Adam Jatowt._
   arxiv 2020 [cs.LG].
   [paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.08615.pdf)
   
     >  We propose a novel joint event extraction framework that aims to extract multiple event triggers and arguments simultaneously by introducing shortest dependency path (SDP) in the dependency graph. 
     
-    
-3. **MAVEN: A Massive General Domain Event Detection Dataset.**
-  _Xiaozhi Wang, Ziqi Wang, Xu Han, Wangyi Jiang, Rong Han, Zhiyuan Liu, Juanzi Li, Peng Li, Yankai Lin, Jie Zhou._
-  arxiv 2020 [cs.CL].
-  [paper](https://arxiv.org/pdf/2004.13590.pdf)
-  
-    > We present a MAssive eVENt detection dataset (MAVEN), which contains 4,480 Wikipediadocuments, 117,200 event mention instances, and 207 event types.
-    
 
-4. **Event Extraction by Answering (Almost) Natural Questions.**
-  _Xinya Du, Claire Cardie._
-  arxiv 2020 [cs.CL].
-  [paper](https://arxiv.org/pdf/2004.13625.pdf)
-  
-    > We introduce a new paradigm for event extraction by formulating it as a question answering (QA) task, which extracts the event arguments in an end-to-end manner.
-    
-
-5. **Improving Event Detection using Contextual Word and Sentence Embeddings.**
+2. **Improving Event Detection using Contextual Word and Sentence Embeddings.**
   _Mariano Maisonnave, Fernando Delbianco, Fernando Tohm´e, Ana Maguitman, Evangelos Milios._
   arxiv 2020 [cs.CL].
   [paper](https://arxiv.org/pdf/2007.01379.pdf)
@@ -827,7 +926,7 @@ In order to show more information for each paper, we take a sentence from the ab
     > The main contribution of this paper is the design, implementation and evaluation of a recurrent neural network model for ED that combines several features.
 
 
-6. **Extracting COVID-19 Events from Twitter.**
+3. **Extracting COVID-19 Events from Twitter.**
   _Shi Zong, Ashutosh Baheti, Wei Xu, Alan Ritter._
   arxiv 2020 [cs.CL].
   [paper](https://arxiv.org/pdf/2006.02567.pdf)
@@ -835,7 +934,7 @@ In order to show more information for each paper, we take a sentence from the ab
     > We present an annotated corpus of 7,500 tweets for COVID-19 events, including positive/negative tests and denied access to testing.
 
 
-7. **Event Extraction Based on Deep Learning in Food Hazard Arabic Texts.**
+4. **Event Extraction Based on Deep Learning in Food Hazard Arabic Texts.**
   _Fouzi Harrag, Selmene Gueliani._
   arxiv 2020 [cs.CL].
   [paper](https://arxiv.org/pdf/2006.02567.pdf)
@@ -843,7 +942,7 @@ In order to show more information for each paper, we take a sentence from the ab
     > We proposed here a model based on deep recurrent networks to extract the events from social media feeds.
     
     
-8. **Document-level Event-based Extraction Using Generative Template-filling Transformers.**
+5. **Document-level Event-based Extraction Using Generative Template-filling Transformers.**
   _Xinya Du, Alexander Rush, Claire Cardie._
   arxiv 2020 [cs.CL].
   [paper](https://arxiv.org/pdf/2006.02567.pdf)
