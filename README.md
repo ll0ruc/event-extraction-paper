@@ -604,7 +604,7 @@ In order to show more information for each paper, we take a sentence from the ab
   NAACL 2021.
   [paper](https://aclanthology.org/2021.nuse-1.4.pdf)
   
-    > the event trigger. In this paper, we propose an end-to-end model leveraging Deep Value Networks (DVN), a structured prediction algorithm, to efficiently capture cross-event dependencies for document-level event extraction.
+    > In this paper, we propose an end-to-end model leveraging Deep Value Networks (DVN), a structured prediction algorithm, to efficiently capture cross-event dependencies for document-level event extraction.
     
     
 ### 2019
