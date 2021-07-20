@@ -581,6 +581,32 @@ In order to show more information for each paper, we take a sentence from the ab
 
 ## NAACL
 
+### 2021
+
+1. **Document-Level Event Argument Extraction by Conditional Generation.**
+  _Sha Li, Heng Ji, Jiawei Han._
+  NAACL 2021.
+  [paper](https://aclanthology.org/2021.naacl-main.69.pdf)
+  
+    > We propose a document-level neural event argument extraction model by formulating the task as conditional generation following event templates. We also compile a new document-level event extraction benchmark dataset WIKIEVENTS which includes complete event and coreference annotation.
+
+
+2. **GTN-ED: Event Detection Using Graph Transformer Networks.**
+  _Sanghamitra Dutta, Liang Ma, Tanay Kumar Saha, Di Lu, Joel Tetreault, Alejandro Jaimes._
+  NAACL 2021.
+  [paper](https://aclanthology.org/2021.textgraphs-1.13.pdf)
+  
+    > In this work, we propose a novel framework for incorporating both dependencies and their labels using a recently proposed technique called Graph Transformer Networks(GTN). We integrate GTNs to leverage dependency relations on two existing homogeneousgraph-based models, and demonstrate an improvement in the F1 score on the ACE dataset.
+    
+
+3. **Document-level Event Extraction with Efficient End-to-end Learning of Cross-event Dependencies.**
+  _Kung-Hsiang Huang, Nanyun Peng._
+  NAACL 2021.
+  [paper](https://aclanthology.org/2021.nuse-1.4.pdf)
+  
+    > the event trigger. In this paper, we propose an end-to-end model leveraging Deep Value Networks (DVN), a structured prediction algorithm, to efficiently capture cross-event dependencies for document-level event extraction.
+    
+    
 ### 2019
 
 1. **Adversarial Training for Weakly Supervised Event Detection.**
